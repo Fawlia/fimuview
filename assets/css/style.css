@@ -1,0 +1,251 @@
+/*/////////////////////////////////////////////////////////////////
+//////////////////////// FONTS/////////////////////////////////////
+///////////////////////////////////////////////////////////////////*/
+
+@font-face {
+font-family: 'ralewayM';
+src: url('../fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+font-family: 'ralewayXbold';
+src: url('../fonts/Raleway-ExtraBold.ttf');
+}
+
+/* ////////////////////////////////////////////////*/
+/* /////////////////// GENERAL / ///////////////////*/
+/* ////////////////////////////////////////////////*/
+
+h1 {
+	font-family: "ralewayXbold";
+	text-transform: uppercase;
+	font-size: 80px;
+	color: rgb(33, 10, 58);
+
+}
+
+h2 {
+	font-family: "ralewayXbold";
+	text-transform: uppercase;
+	font-size: 30px;
+	color: rgb(33, 10, 58);
+}
+
+h3 {
+	font-family: "ralewayXbold";
+	font-size: 22px;
+	color: rgb(33, 10, 58);
+}
+
+.toto {
+	color: rgb(33, 10, 58);
+	font-family: "ralewayXbold";
+	font-size: 24px !important;
+}
+
+label {
+	font-family: "ralewayXbold";
+	color: rgb(33, 10, 58) !important;
+	text-transform: uppercase;
+	font-size: 12px !important;
+	
+}
+
+.btn {
+	margin-bottom: 10px;
+	background-color: rgba(255,102,0,0.6);
+	border: 1px solid rgba(33, 10, 58,0.5) !important;
+}
+
+.btn-primary:hover {
+	background-color: rgb(226, 67, 31) !important;
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary, .btn-primary:active:focus {
+	background-color: rgb(226, 67, 31) !important;
+	border: 1px solid rgba(33, 10, 58,0.5) !important;
+	font-family: "ralewayXbold" !important;
+	color: rgb(33, 10, 58) !important;
+	text-transform: uppercase !important; 
+	font-size: 12px !important;
+}
+
+
+
+p{
+	font-family: "ralewayM";
+	font-size: 14px;
+	
+}
+
+
+
+
+/* ////////////////////////////////////////////////*/
+/* /////////////////// HEADER / ///////////////////*/
+/* ////////////////////////////////////////////////*/
+
+#header {
+
+	background-image: url("../img/header/header1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(192, 170, 189, 0.8);
+	padding:0;
+	height: auto;
+	
+}
+
+#header img {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#logos {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+/* ////////////////////////////////////////////////*/
+/* /////////////////// MENU NAV ///////////////////*/
+/* ////////////////////////////////////////////////*/
+
+.navbar
+{
+	font-family: "ralewayXbold";
+    background-color: rgb(232, 121, 37);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+	margin-bottom: 0;
+	border: inherit;
+	border-radius: 0px;
+}
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+#largeur {
+	width: inherit;
+}
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{
+    color: #fff; !important;
+	height: 70px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: rgb(33, 10, 58); !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color: #422D40!important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+}
+.icon-bar
+{
+    background-color: #fff !important;
+}
+
+#no-padding {
+	padding: 0;
+}
+
+.flex-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* ////////////////////////////////////////////////*/
+/* /////////////////// BLOC 1 /////////////////////*/
+/* ////////////////////////////////////////////////*/
+#bloc1 {
+ 	background-color: rgba(238, 172, 111,0.3);
+}
+#bloc1 .para {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+#bloc1 p {
+	margin-bottom: 0px;
+}
+
+/* ////////////////////////////////////////////////*/
+/* /////////////////// BLOC 2 /////////////////////*/
+/* ////////////////////////////////////////////////*/
+#bloc2 {
+
+	background-color: rgba(238, 172, 111,0.6);
+}
+
+#bloc2 .para {
+	margin-top: 40px;
+	margin-bottom: 50px;
+	
+}
+
+#bloc2 p {
+	margin-bottom: 0px;
+}
+
+/* ////////////////////////////////////////////////*/
+/* /////////////////// BLOC 3 /////////////////////*/
+/* ////////////////////////////////////////////////*/
+
+#bloc3 {
+	background-color: rgba(238, 172, 111, 0.9);
+}
+
+#bloc3 .para {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+#bloc3 p {
+	margin-bottom: 0px;
+}
+
+
+/* ////////////////////////////////////////////////*/
+/* /////////////////// FOOTER /////////////////////*/
+/* ////////////////////////////////////////////////*/
+
+footer {
+	font-family: "ralewayXbold";
+    background-color: rgb(232, 121, 37);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#foot {
+	margin: 0;
+	padding: 0;
+}
+
